@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACADB49A1FD27F190092E7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4991FD27F190092E7DD /* AppDelegate.swift */; };
+		ACADB49C1FD27F190092E7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB49B1FD27F190092E7DD /* ViewController.swift */; };
+		ACADB49F1FD27F190092E7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB49D1FD27F190092E7DD /* Main.storyboard */; };
+		ACADB4A11FD27F190092E7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACADB4A01FD27F190092E7DD /* Assets.xcassets */; };
+		ACADB4A41FD27F190092E7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACADB4A21FD27F190092E7DD /* LaunchScreen.storyboard */; };
+		ACADB4AF1FD27F190092E7DD /* Fariqanuz_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4AE1FD27F190092E7DD /* Fariqanuz_APPTests.swift */; };
+		ACADB4BA1FD27F190092E7DD /* Fariqanuz_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADB4B91FD27F190092E7DD /* Fariqanuz_APPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACADB4AB1FD27F190092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB48E1FD27F190092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB4951FD27F190092E7DD;
+			remoteInfo = "Fariqanuz APP";
+		};
+		ACADB4B61FD27F190092E7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACADB48E1FD27F190092E7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACADB4951FD27F190092E7DD;
+			remoteInfo = "Fariqanuz APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACADB4961FD27F190092E7DD /* Fariqanuz APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fariqanuz APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB4991FD27F190092E7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACADB49B1FD27F190092E7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACADB49E1FD27F190092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACADB4A01FD27F190092E7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACADB4A31FD27F190092E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACADB4A51FD27F190092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB4AA1FD27F190092E7DD /* Fariqanuz APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fariqanuz APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB4AE1FD27F190092E7DD /* Fariqanuz_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fariqanuz_APPTests.swift; sourceTree = "<group>"; };
+		ACADB4B01FD27F190092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACADB4B51FD27F190092E7DD /* Fariqanuz APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fariqanuz APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACADB4B91FD27F190092E7DD /* Fariqanuz_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fariqanuz_APPUITests.swift; sourceTree = "<group>"; };
+		ACADB4BB1FD27F190092E7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACADB4931FD27F190092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4A71FD27F190092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4B21FD27F190092E7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACADB48D1FD27F190092E7DD = {
+			isa = PBXGroup;
+			children = (
+				ACADB4981FD27F190092E7DD /* Fariqanuz APP */,
+				ACADB4AD1FD27F190092E7DD /* Fariqanuz APPTests */,
+				ACADB4B81FD27F190092E7DD /* Fariqanuz APPUITests */,
+				ACADB4971FD27F190092E7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACADB4971FD27F190092E7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4961FD27F190092E7DD /* Fariqanuz APP.app */,
+				ACADB4AA1FD27F190092E7DD /* Fariqanuz APPTests.xctest */,
+				ACADB4B51FD27F190092E7DD /* Fariqanuz APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACADB4981FD27F190092E7DD /* Fariqanuz APP */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4991FD27F190092E7DD /* AppDelegate.swift */,
+				ACADB49B1FD27F190092E7DD /* ViewController.swift */,
+				ACADB49D1FD27F190092E7DD /* Main.storyboard */,
+				ACADB4A01FD27F190092E7DD /* Assets.xcassets */,
+				ACADB4A21FD27F190092E7DD /* LaunchScreen.storyboard */,
+				ACADB4A51FD27F190092E7DD /* Info.plist */,
+			);
+			path = "Fariqanuz APP";
+			sourceTree = "<group>";
+		};
+		ACADB4AD1FD27F190092E7DD /* Fariqanuz APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4AE1FD27F190092E7DD /* Fariqanuz_APPTests.swift */,
+				ACADB4B01FD27F190092E7DD /* Info.plist */,
+			);
+			path = "Fariqanuz APPTests";
+			sourceTree = "<group>";
+		};
+		ACADB4B81FD27F190092E7DD /* Fariqanuz APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACADB4B91FD27F190092E7DD /* Fariqanuz_APPUITests.swift */,
+				ACADB4BB1FD27F190092E7DD /* Info.plist */,
+			);
+			path = "Fariqanuz APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACADB4951FD27F190092E7DD /* Fariqanuz APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB4BE1FD27F190092E7DD /* Build configuration list for PBXNativeTarget "Fariqanuz APP" */;
+			buildPhases = (
+				ACADB4921FD27F190092E7DD /* Sources */,
+				ACADB4931FD27F190092E7DD /* Frameworks */,
+				ACADB4941FD27F190092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fariqanuz APP";
+			productName = "Fariqanuz APP";
+			productReference = ACADB4961FD27F190092E7DD /* Fariqanuz APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACADB4A91FD27F190092E7DD /* Fariqanuz APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB4C11FD27F190092E7DD /* Build configuration list for PBXNativeTarget "Fariqanuz APPTests" */;
+			buildPhases = (
+				ACADB4A61FD27F190092E7DD /* Sources */,
+				ACADB4A71FD27F190092E7DD /* Frameworks */,
+				ACADB4A81FD27F190092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB4AC1FD27F190092E7DD /* PBXTargetDependency */,
+			);
+			name = "Fariqanuz APPTests";
+			productName = "Fariqanuz APPTests";
+			productReference = ACADB4AA1FD27F190092E7DD /* Fariqanuz APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACADB4B41FD27F190092E7DD /* Fariqanuz APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACADB4C41FD27F190092E7DD /* Build configuration list for PBXNativeTarget "Fariqanuz APPUITests" */;
+			buildPhases = (
+				ACADB4B11FD27F190092E7DD /* Sources */,
+				ACADB4B21FD27F190092E7DD /* Frameworks */,
+				ACADB4B31FD27F190092E7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACADB4B71FD27F190092E7DD /* PBXTargetDependency */,
+			);
+			name = "Fariqanuz APPUITests";
+			productName = "Fariqanuz APPUITests";
+			productReference = ACADB4B51FD27F190092E7DD /* Fariqanuz APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACADB48E1FD27F190092E7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Abi Sayuti";
+				TargetAttributes = {
+					ACADB4951FD27F190092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACADB4A91FD27F190092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB4951FD27F190092E7DD;
+					};
+					ACADB4B41FD27F190092E7DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACADB4951FD27F190092E7DD;
+					};
+				};
+			};
+			buildConfigurationList = ACADB4911FD27F190092E7DD /* Build configuration list for PBXProject "Fariqanuz APP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACADB48D1FD27F190092E7DD;
+			productRefGroup = ACADB4971FD27F190092E7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACADB4951FD27F190092E7DD /* Fariqanuz APP */,
+				ACADB4A91FD27F190092E7DD /* Fariqanuz APPTests */,
+				ACADB4B41FD27F190092E7DD /* Fariqanuz APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACADB4941FD27F190092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4A41FD27F190092E7DD /* LaunchScreen.storyboard in Resources */,
+				ACADB4A11FD27F190092E7DD /* Assets.xcassets in Resources */,
+				ACADB49F1FD27F190092E7DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4A81FD27F190092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4B31FD27F190092E7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACADB4921FD27F190092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB49C1FD27F190092E7DD /* ViewController.swift in Sources */,
+				ACADB49A1FD27F190092E7DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4A61FD27F190092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4AF1FD27F190092E7DD /* Fariqanuz_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACADB4B11FD27F190092E7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACADB4BA1FD27F190092E7DD /* Fariqanuz_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACADB4AC1FD27F190092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB4951FD27F190092E7DD /* Fariqanuz APP */;
+			targetProxy = ACADB4AB1FD27F190092E7DD /* PBXContainerItemProxy */;
+		};
+		ACADB4B71FD27F190092E7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACADB4951FD27F190092E7DD /* Fariqanuz APP */;
+			targetProxy = ACADB4B61FD27F190092E7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACADB49D1FD27F190092E7DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB49E1FD27F190092E7DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACADB4A21FD27F190092E7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACADB4A31FD27F190092E7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACADB4BC1FD27F190092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACADB4BD1FD27F190092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACADB4BF1FD27F190092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fariqanuz APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Fariqanuz-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACADB4C01FD27F190092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fariqanuz APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Fariqanuz-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACADB4C21FD27F190092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fariqanuz APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Fariqanuz-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fariqanuz APP.app/Fariqanuz APP";
+			};
+			name = Debug;
+		};
+		ACADB4C31FD27F190092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fariqanuz APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Fariqanuz-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fariqanuz APP.app/Fariqanuz APP";
+			};
+			name = Release;
+		};
+		ACADB4C51FD27F190092E7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fariqanuz APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Fariqanuz-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fariqanuz APP";
+			};
+			name = Debug;
+		};
+		ACADB4C61FD27F190092E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fariqanuz APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ABI-SA.Fariqanuz-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fariqanuz APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACADB4911FD27F190092E7DD /* Build configuration list for PBXProject "Fariqanuz APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4BC1FD27F190092E7DD /* Debug */,
+				ACADB4BD1FD27F190092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB4BE1FD27F190092E7DD /* Build configuration list for PBXNativeTarget "Fariqanuz APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4BF1FD27F190092E7DD /* Debug */,
+				ACADB4C01FD27F190092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB4C11FD27F190092E7DD /* Build configuration list for PBXNativeTarget "Fariqanuz APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4C21FD27F190092E7DD /* Debug */,
+				ACADB4C31FD27F190092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACADB4C41FD27F190092E7DD /* Build configuration list for PBXNativeTarget "Fariqanuz APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADB4C51FD27F190092E7DD /* Debug */,
+				ACADB4C61FD27F190092E7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACADB48E1FD27F190092E7DD /* Project object */;
+}
